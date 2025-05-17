@@ -5,6 +5,10 @@
     --second-family: "Open Sans", sans-serif;
 }
 
+body {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
 }

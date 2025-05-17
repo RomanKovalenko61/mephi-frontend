@@ -5,10 +5,12 @@
 
 .header {
     border-bottom: 1px solid #eff5fb;
+    margin-bottom: 16px;
 }
 
 .header__wrapper {
-    max-width: 1200px;
+    max-width: calc(1200px + 2 * 32px);
+    padding: 14px 32px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -18,7 +20,6 @@
 .header__menu {
     display: flex;
     gap: 51px;
-    padding: 20px 0;
     align-items: center;
 }
 
@@ -46,6 +47,8 @@
 .header__button {
     border-radius: 4px;
     padding: 14px 20px;
+    width: 230px;
+    height: 48px;
     border-style: none;
     background: #e3f5f5;
     font-family: var(--font-family);
