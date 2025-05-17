@@ -1,0 +1,56 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Open Sans", sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #eff5fb;
+}
+
+.header__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 51px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu__item a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #333;
+}
+
+.menu__item:nth-child(6)::after {
+    padding-left: 8px;
+    content: url("../images/header-shevron.svg");
+}
+
+.header__button {
+    border-radius: 4px;
+    padding: 14px 20px;
+    border-style: none;
+    background: #e3f5f5;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #03b2a5;
+}
