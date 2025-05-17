@@ -1,7 +1,8 @@
 /* CSS */
 
 :root {
-    /* values */
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Open Sans", sans-serif;
 }
 
 p {
