@@ -9,18 +9,19 @@
 }
 
 .header__wrapper {
-    max-width: calc(1200px + 2 * 32px);
-    padding: 14px 32px;
+    max-width: 1264px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 14px 32px;
 }
 
 .header__menu {
     display: flex;
     gap: 51px;
     align-items: center;
+    cursor: pointer;
 }
 
 .menu {
@@ -56,6 +57,7 @@
     font-size: 16px;
     text-align: center;
     color: #03b2a5;
+    cursor: pointer;
 }
 
 .header__mobile-menu-button {
@@ -67,6 +69,10 @@
 }
 
 @media (max-width: 1200px) {
+    .header__wrapper {
+        max-width: 960px;
+    }
+
     .header__menu {
         gap: 32px;
     }
