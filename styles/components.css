@@ -199,3 +199,23 @@
 .picture-6 {
     background: url("../images/article-6.png");
 }
+
+.center-button {
+    text-align: center;
+}
+
+.load-button {
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    width: 182px;
+    height: 48px;
+    background: #35b3a9;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 96px;
+}
