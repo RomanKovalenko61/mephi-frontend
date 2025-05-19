@@ -86,6 +86,11 @@
     max-height: 260px;
 }
 
+.hero-article-container {
+    display: flex;
+    gap: 24px;
+}
+
 .picture {
     width: 588px;
     height: 260px;
@@ -94,8 +99,13 @@
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
+
 .picture-left {
     background: url("../images/eggs-pic.png");
+}
+
+.picture-right {
+    background: url("../images/running-pic.png");
 }
 
 .desc {
@@ -103,9 +113,13 @@
     border: 1px solid #dedede;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.desc__header {
+.desc__block__header {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
@@ -114,7 +128,7 @@
     margin-bottom: 4px;
 }
 
-.desc__author {
+.desc__block__author {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 12px;
@@ -124,13 +138,12 @@
     margin-bottom: 8px;
 }
 
-.desc__text {
+.desc__block__text {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 143%;
     color: #333;
-    margin-bottom: 68px;
 }
 
 .desc__date {
