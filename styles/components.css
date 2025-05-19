@@ -89,6 +89,7 @@
 .hero-article-container {
     display: flex;
     gap: 24px;
+    margin-bottom: 24px;
 }
 
 .picture {
@@ -153,4 +154,48 @@
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #868686;
+}
+
+.article-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 24px;
+    margin-bottom: 56px;
+}
+
+.article {
+    max-width: 384px;
+}
+
+.picture-small {
+    width: 384px;
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.picture-1 {
+    background: url("../images/article-1.png");
+}
+
+.picture-2 {
+    background: url("../images/article-2.png");
+}
+
+.picture-3 {
+    background: url("../images/article-3.png");
+}
+
+.picture-4 {
+    background: url("../images/article-4.png");
+}
+
+.picture-5 {
+    background: url("../images/article-5.png");
+}
+
+.picture-6 {
+    background: url("../images/article-6.png");
 }
