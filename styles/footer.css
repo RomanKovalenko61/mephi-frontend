@@ -84,3 +84,19 @@ footer {
     color: #fff;
     opacity: 0.7;
 }
+
+.footer__nav__social {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer__nav__social_sk {
+    height: 50px;
+    width: 221px;
+}
+
+.footer__nav__social_social {
+    height: 32px;
+    width: 176px;
+}
