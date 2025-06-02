@@ -25,7 +25,7 @@
                         alt="Логотип"
                         class="header__logo"
                     />
-                    <nav>
+                    <nav role="navigation" aria-label="Главное меню">
                         <ul class="menu">
                             <li class="menu__item"><a href="#">О нас</a></li>
                             <li class="menu__item"><a href="#">Тарифы</a></li>
@@ -46,12 +46,20 @@
                     </nav>
                 </div>
                 <button class="header__button">Подобрать психолога</button>
-                <button class="header__mobile-menu-button">
-                    <img src="./images/mobi-menu.svg" alt="мобильное меню" />
+                <button
+                    class="header__mobile-menu-button"
+                    aria-label="Открыть мобильное меню"
+                >
+                    <img
+                        src="./images/mobi-menu.svg"
+                        alt=""
+                        aria-hidden="true"
+                    />
+                    <span class="visually-hidden">Открыть мобильное меню</span>
                 </button>
             </div>
         </header>
-        <main>
+        <main role="main">
             <div class="article__wrapper">
                 <div class="big-article-container">
                     <div class="big-article-container__left">
@@ -532,7 +540,7 @@
                 </div>
             </div>
         </main>
-        <footer>
+        <footer role="footer">
             <div class="footer__wrapper">
                 <div class="footer__nav">
                     <div class="footer__nav__links">
@@ -552,7 +560,7 @@
                     <div class="footer__nav__input">
                         <form action="/email" method="post" class="form">
                             <div class="form__header">
-                                <label for="e-mail"
+                                <label for="email"
                                     >Одно письмо в неделю со свежими<br />новостями
                                     и акциями</label
                                 >
