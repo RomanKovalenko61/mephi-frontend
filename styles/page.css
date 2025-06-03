@@ -20,3 +20,24 @@
     clip: rect(0 0 0 0);
     border: 0;
 }
+
+.background-page {
+    display: none;
+    position: absolute;
+    top: 740px;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1440px) {
+    .background-page {
+        display: block;
+    }
+}
+
+@media (max-width: 1200px) {
+    .background-page {
+        display: none;
+    }
+}
