@@ -347,12 +347,17 @@
 }
 
 .big-article-container__left__quote__text {
+    position: relative;
     font-family: var(--font-family);
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #333;
+}
+
+.big-article-container__left__quote img {
+    position: absolute;
 }
 
 .big-article-container__left__quote__author {
@@ -408,6 +413,10 @@
     margin-bottom: 24px;
 }
 
+.big-article-container__left__text-centr-wrapper {
+    position: relative;
+}
+
 .big-article-container__left__text-centr {
     font-family: var(--font-family);
     font-style: italic;
@@ -418,6 +427,14 @@
     text-align: center;
     padding: 24px 102px 48px;
     margin-bottom: 24px;
+}
+
+.big-article-container__left__text-centr__img {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .big-article-container__left__img-text {
@@ -669,6 +686,13 @@
     background: #fff;
     box-shadow: 0 30px 50px 0 #eff5fb;
     border: 1px solid #dedede;
+    position: relative;
+}
+
+.big-article-container__right__card-4__gift {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .big-article-container__right__card-4__container {
