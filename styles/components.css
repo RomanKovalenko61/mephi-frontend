@@ -274,10 +274,34 @@
     text-decoration-skip-ink: none;
     color: #333;
     margin-bottom: 24px;
+    padding-left: 20px;
 }
 
-.big-article-container__left__content ul {
-    list-style: none;
+.toc__list {
+    list-style: disc;
+}
+
+.toc__list ul {
+    list-style: disc;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}
+
+.toc__list a {
+    color: #3a7ca5;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.toc__list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.toc__list li::marker {
+    color: #3ac17e;
 }
 
 .big-article-container__left__header3 {
@@ -291,6 +315,10 @@
     line-height: 133%;
     color: #333;
     margin-bottom: 16px;
+}
+
+.big-article-container__left__header img {
+    margin-bottom: 24px;
 }
 
 .big-article-container__left__header3__text {
